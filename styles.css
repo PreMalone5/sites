@@ -354,7 +354,7 @@
 
         /* Gradient Buttons */
         .btn {
-            background: var(--gradient-primary);
+            background:rgb(105, 105, 105);
             color: var(--text-dark);
             border: none;
             padding: 1rem 2.5rem;
