@@ -503,6 +503,7 @@
     width: 100%;
     display: block;
     transition: transform 1.0s ease;
+    height: 250px;
   }
   
   .card-hoverable:hover img {
@@ -1018,5 +1019,17 @@
 
 .profile-readmore a:hover {
   color: #1a5a8a;
+}
+
+.card-hoverable .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: linear-gradient(to top, #929292, transparent);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
